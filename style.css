@@ -1,0 +1,47 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+} 
+
+
+
+/*.slide:hover {
+}*/
+
+header.mountains {
+	background-position: center;
+	background: url('background.jpg');
+	background-size: cover;
+	height: 100%;	
+	color: #ccd4c4;
+}
+
+.slide h1 {
+  transform: translateY(-10px); 
+  transition: all 1s;
+}
+
+.btn {
+	background-color: #578a59;
+	border-color: #578a59;	
+	color: #ccd4c4;	
+}
+
+.btn-join {
+	border-radius: 20px;
+	padding-right: 30px; 
+	padding-left: 30px; 
+}
+
+.btn-join:hover {	
+	background-color: #3e848a;
+	border-color: #3e848a;
+	cursor: pointer;
+	transform: scale(1.2);
+	transition: all 1s;
+}
